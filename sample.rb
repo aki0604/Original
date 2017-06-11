@@ -1,5 +1,7 @@
-  def say_hello # メソッドの定義
-    puts "Hello World"
+  def rename(name)
+    name = "Mr.#{name}"
   end
 
-  say_hello #メソッドの呼び出し
+  name = "Tanaka"
+  name = rename(name)
+  puts name
