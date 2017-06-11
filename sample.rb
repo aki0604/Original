@@ -1,3 +1,5 @@
-  input = gets
+  def say_hello # メソッドの定義
+    puts "Hello World"
+  end
 
-  puts "入力した値は#{input}です"
+  say_hello #メソッドの呼び出し
